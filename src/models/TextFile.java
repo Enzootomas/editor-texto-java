@@ -70,6 +70,8 @@ public class TextFile {
 
     @Override
     public String toString() {
-        return "Nome: " + name + " | Tamanho: " + size + " bytes";
+        return "Nome: " + name
+            + " | Tamanho: " + size
+            + " bytes";
     }
 }
